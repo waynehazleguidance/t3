@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603832879572" stop="1603832939138" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603832879583" stop="1603832939133" status="failed">
+      <name>T3MicroAustria</name>
+      <failure>
+        <message>Failed asserting that  on page /de/product-cura-luxe-dryer
+--&gt; Kostenloser Versand ab 50 € JETZT SHOPPEN
+Österreich
+Mein Warenkorb
+Cura Haartrockner Shop
+Über T3
+Tutorials Blog
+Shop
+ÜBer T3
+Blog
+Tutorials
+Anmelden
+Konto erstellen
+Österreich
+CURA LUXE
+Haartrockner
+Details anzeigen
+275,00 €
+inkl. MWSt./exkl. Versandkosten.
+4.7 star rating
+34 Reviews
+IN DE
+[Content too long to display. See complete response in '/Users/whazle/Desktop/T3Tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "Add to Cart".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Kostenloser Ver...', '')
+#1 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Kostenloser Ver...', '')
+#2 /Users/whazle/Desktop/T3Tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Kostenloser Ver...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/T3Tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Kostenloser Ver...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/T3Tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('Add to Cart')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('Add to Cart')
+#6 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/T3Tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/T3Tests/src/Test/Project/DemoCest.php(155): Guidance\Tests\Project\Actor-&gt;see('Add to Cart')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;T3MicroAustria(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'T3MicroAustria', Array)
+#13 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('T3MicroAustria', Array)
+#14 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/T3Tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/T3Tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/T3Tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603832882500" stop="1603832885770" status="passed">
+          <name>am on url "https://www•t3micro•at/de/"</name>
+        </step>
+        <step start="1603832885771" stop="1603832887773" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603832887773" stop="1603832888087" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603832888087" stop="1603832895090" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603832895090" stop="1603832900095" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603832900095" stop="1603832901883" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603832901883" stop="1603832906884" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603832906884" stop="1603832907197" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603832907197" stop="1603832910201" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603832910201" stop="1603832910324" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1603832910324" stop="1603832912325" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603832912325" stop="1603832912451" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603832912451" stop="1603832920454" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603832920454" stop="1603832921673" status="passed">
+          <name>am on page "/haartrockner"</name>
+        </step>
+        <step start="1603832921674" stop="1603832922029" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603832922029" stop="1603832926030" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603832926030" stop="1603832926103" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1603832926103" stop="1603832929107" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603832929107" stop="1603832929265" status="passed">
+          <name>fill field {"id":"search"},"Haartrockner"</name>
+        </step>
+        <step start="1603832929265" stop="1603832931270" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603832931270" stop="1603832932949" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603832932950" stop="1603832933265" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603832933265" stop="1603832936057" status="passed">
+          <name>am on page "/product-cura-luxe-dryer"</name>
+        </step>
+        <step start="1603832936058" stop="1603832936412" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1603832936412" stop="1603832936713" status="failed">
+          <name>see "Add to Cart"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="10f346c4904673cb60a8a4d76ad7c68e4893a173-attachment.png" type="image/png"/>
+        <attachment title="html" source="8fe56cfdd4424ba5b62dc440f371c775c85ac5b4-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroAustria"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

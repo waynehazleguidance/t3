@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603832243780" stop="1603832287017" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603832243790" stop="1603832287001" status="failed">
+      <name>T3MicroAustria</name>
+      <failure>
+        <message>Failed asserting that  on page /de/category/hair-dryers
+--&gt; Kostenloser Versand ab 50 € JETZT SHOPPEN
+Österreich
+Mein Warenkorb
+Cura Haartrockner Shop
+Über T3
+Tutorials Blog
+Shop
+ÜBer T3
+Blog
+Tutorials
+Anmelden
+Konto erstellen
+Österreich
+There was no 404 CMS page configured or found.
+Für News, Updates und Angebote anmelden
+Sign Up for Our Newsletter:
+
+[Content too long to display. See complete response in '/Users/whazle/Desktop/T3Tests/config/codecept/../../vars/output/' directory]
+--&gt; contains "hair".</message>
+        <stack-trace>#0 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(55): PHPUnit\Framework\Constraint\Constraint-&gt;fail('Kostenloser Ver...', '')
+#1 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/Assert.php(2331): PHPUnit\Framework\Constraint\Constraint-&gt;evaluate('Kostenloser Ver...', '')
+#2 /Users/whazle/Desktop/T3Tests/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(1369): PHPUnit\Framework\Assert::assertThat('Kostenloser Ver...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#3 /Users/whazle/Desktop/T3Tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(2996): Codeception\Module-&gt;assertThat('Kostenloser Ver...', Object(Codeception\PHPUnit\Constraint\Page), '')
+#4 /Users/whazle/Desktop/T3Tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(929): Codeception\Module\WebDriver-&gt;assertPageContains('hair')
+#5 [internal function]: Codeception\Module\WebDriver-&gt;see('hair')
+#6 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#7 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#8 /Users/whazle/Desktop/T3Tests/src/_generated/ActorActions.php(633): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Assertion))
+#9 /Users/whazle/Desktop/T3Tests/src/Test/Project/DemoCest.php(134): Guidance\Tests\Project\Actor-&gt;see('hair')
+#10 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;T3MicroAustria(Object(Guidance\Tests\Project\Actor))
+#11 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#12 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'T3MicroAustria', Array)
+#13 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('T3MicroAustria', Array)
+#14 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#15 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#16 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#17 /Users/whazle/Desktop/T3Tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#18 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#19 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#20 /Users/whazle/Desktop/T3Tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#21 /Users/whazle/Desktop/T3Tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#22 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603832246429" stop="1603832249050" status="passed">
+          <name>am on url "https://www•t3micro•at/de/"</name>
+        </step>
+        <step start="1603832249050" stop="1603832251051" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603832251052" stop="1603832251461" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603832251461" stop="1603832258465" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603832258465" stop="1603832263470" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603832263470" stop="1603832265233" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603832265234" stop="1603832270236" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603832270236" stop="1603832270468" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603832270468" stop="1603832273468" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603832273468" stop="1603832273629" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1603832273629" stop="1603832275630" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603832275630" stop="1603832275745" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603832275745" stop="1603832283747" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603832283747" stop="1603832285317" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1603832285317" stop="1603832285501" status="failed">
+          <name>see "hair"</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="4d4c7a94d381d08167b2d229914d9792c620e0b9-attachment.png" type="image/png"/>
+        <attachment title="html" source="330a43786fab6fcc9d35074c604c99f26be1d3c2-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroAustria"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

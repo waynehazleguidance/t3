@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1603840530141" stop="1603840628028" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1603840530152" stop="1603840628020" status="failed">
+      <name>T3MicroFrench</name>
+      <failure>
+        <message>CSS or XPath element with css '#product-addtocart-button' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/T3Tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1036): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 /Users/whazle/Desktop/T3Tests/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(995): Codeception\Module\WebDriver-&gt;_findClickable(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#2 /Users/whazle/Desktop/T3Tests/src/Actor/Helper/Common.php(55): Codeception\Module\WebDriver-&gt;click(Array, NULL)
+#3 [internal function]: Guidance\Tests\Project\Actor\Helper\Common-&gt;click(Array)
+#4 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#5 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#6 /Users/whazle/Desktop/T3Tests/src/_generated/ActorActions.php(1112): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#7 /Users/whazle/Desktop/T3Tests/src/Test/Project/DemoCest.php(527): Guidance\Tests\Project\Actor-&gt;click(Array)
+#8 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;T3MicroFrench(Object(Guidance\Tests\Project\Actor))
+#9 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#10 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'T3MicroFrench', Array)
+#11 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('T3MicroFrench', Array)
+#12 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#13 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#14 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/T3Tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/T3Tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#19 /Users/whazle/Desktop/T3Tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#20 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1603840532735" stop="1603840534970" status="passed">
+          <name>am on url "https://www•t3micro•fr/"</name>
+        </step>
+        <step start="1603840534970" stop="1603840536971" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603840536971" stop="1603840537396" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1603840537396" stop="1603840544400" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603840544400" stop="1603840544516" status="passed">
+          <name>click {"css":"#btn-cookie-allow &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1603840544516" stop="1603840551517" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1603840551518" stop="1603840551569" status="passed">
+          <name>click {"css":"html body•cms-home•cms-index-index•page-layout-1column•yotpo-yotpo-is-enabled•_has-modal div•modals-wrapper aside•modal-popup•newsletter-modal•modal-slide•_show div•modal-inner-wrap div#mo•••}</name>
+        </step>
+        <step start="1603840551569" stop="1603840556569" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603840556570" stop="1603840556617" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1603840556617" stop="1603840560617" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603840560617" stop="1603840560851" status="passed">
+          <name>fill field {"id":"search"},"Dryer"</name>
+        </step>
+        <step start="1603840560851" stop="1603840564855" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603840564855" stop="1603840566666" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1603840566667" stop="1603840566939" status="passed">
+          <name>see "dryer"</name>
+        </step>
+        <step start="1603840566939" stop="1603840568863" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1603840568863" stop="1603840573866" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1603840573866" stop="1603840574015" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1603840574016" stop="1603840577016" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1603840577016" stop="1603840577220" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1603840577220" stop="1603840579221" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1603840579221" stop="1603840579318" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1603840579318" stop="1603840587318" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1603840587318" stop="1603840588459" status="passed">
+          <name>am on page "/Sèche-cheveux"</name>
+        </step>
+        <step start="1603840588459" stop="1603840588599" status="passed">
+          <name>see "cheveux"</name>
+        </step>
+        <step start="1603840588600" stop="1603840592601" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1603840592601" stop="1603840595262" status="passed">
+          <name>am on page "/fr/cura"</name>
+        </step>
+        <step start="1603840595262" stop="1603840595410" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1603840595411" stop="1603840595637" status="passed">
+          <name>see "ajouter"</name>
+        </step>
+        <step start="1603840595637" stop="1603840626941" status="failed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="f988d278659c51355c6fcc5da903158f9aeb132a-attachment.png" type="image/png"/>
+        <attachment title="html" source="fc41b7d73b62e9d6a4b338b5dd32df5a535a78b0-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroFrench"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
