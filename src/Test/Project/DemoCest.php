@@ -38,8 +38,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
 
 
 
-
-    public function T3Micro(\Guidance\Tests\Project\Actor $I)
+    public function _T3Micro(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.com/');
@@ -168,7 +167,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroBelgium(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroBelgium(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.be/en/');
@@ -244,7 +243,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
 
 
 
-    public function T3MicroGermany(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroGermany(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.de/');
@@ -313,7 +312,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
 
     }
 
-    public function T3MicroDenmark(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroDenmark(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.dk/en/');
@@ -388,7 +387,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroSpain(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroSpain(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.es/');
@@ -463,7 +462,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
 
     }
 
-    public function T3MicroFrench(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroFrench(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.fr/');
@@ -539,7 +538,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroItaly(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroItaly(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.it');
@@ -616,7 +615,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroNertherlands(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroNertherlands(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.nl/en/');
@@ -693,7 +692,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroPoland(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroPoland(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.pl/en/');
@@ -770,7 +769,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroPortugal(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroPortugal(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.pt/en/');
@@ -847,7 +846,7 @@ class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
     }
 
 
-    public function T3MicroSweden(\Guidance\Tests\Project\Actor $I)
+    public function _T3MicroSweden(\Guidance\Tests\Project\Actor $I)
     {
 
         $I->amOnUrl('https://www.t3micro.pt/en/');

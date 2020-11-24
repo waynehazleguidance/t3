@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1605811778674" stop="1605811921481" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1605811778684" stop="1605811853578" status="passed">
+      <name>T3Micro</name>
+      <steps>
+        <step start="1605811780652" stop="1605811783284" status="passed">
+          <name>am on url "https://www•t3micro•com/"</name>
+        </step>
+        <step start="1605811783285" stop="1605811785285" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605811785285" stop="1605811785938" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1605811785939" stop="1605811792942" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1605811792942" stop="1605811797946" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811797946" stop="1605811801023" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1605811801024" stop="1605811806027" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811806027" stop="1605811806240" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1605811806240" stop="1605811809243" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1605811809243" stop="1605811809400" status="passed">
+          <name>fill field {"id":"pass"},"@Samantha1349"</name>
+        </step>
+        <step start="1605811809400" stop="1605811811402" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605811811403" stop="1605811811517" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1605811811517" stop="1605811819518" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1605811819518" stop="1605811820645" status="passed">
+          <name>am on page "/category/hair-dryers"</name>
+        </step>
+        <step start="1605811820645" stop="1605811822257" status="passed">
+          <name>see "hair"</name>
+        </step>
+        <step start="1605811822257" stop="1605811826262" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1605811826262" stop="1605811826340" status="passed">
+          <name>click {"css":"•search-icon-wrapper &gt; span:nth-child(1)"}</name>
+        </step>
+        <step start="1605811826340" stop="1605811826520" status="passed">
+          <name>fill field {"id":"search"},"Dryer"</name>
+        </step>
+        <step start="1605811826521" stop="1605811828523" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605811828523" stop="1605811830999" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1605811830999" stop="1605811832425" status="passed">
+          <name>see "dryer"</name>
+        </step>
+        <step start="1605811832425" stop="1605811834460" status="passed">
+          <name>am on page "/product/lucea-id-straightening-and-styling-iron"</name>
+        </step>
+        <step start="1605811834460" stop="1605811835786" status="passed">
+          <name>see "T3"</name>
+        </step>
+        <step start="1605811835786" stop="1605811837170" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1605811837171" stop="1605811837297" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1605811837297" stop="1605811839609" status="passed">
+          <name>wait for text "added"</name>
+        </step>
+        <step start="1605811839609" stop="1605811844612" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811844612" stop="1605811848201" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1605811848201" stop="1605811853205" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811853206" stop="1605811853523" status="passed">
+          <name>see "Cart"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3Micro"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+    <test-case start="1605811853584" stop="1605811921477" status="passed">
+      <name>T3MicroAustria</name>
+      <steps>
+        <step start="1605811855208" stop="1605811858190" status="passed">
+          <name>am on url "https://www•t3micro•at/de/"</name>
+        </step>
+        <step start="1605811858190" stop="1605811860194" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605811860194" stop="1605811860473" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1605811860473" stop="1605811867475" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1605811867475" stop="1605811872477" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811872477" stop="1605811874156" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1605811874156" stop="1605811879157" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811879157" stop="1605811879322" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1605811879322" stop="1605811882325" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1605811882325" stop="1605811882410" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1605811882410" stop="1605811884410" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605811884411" stop="1605811884478" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1605811884478" stop="1605811892479" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1605811892479" stop="1605811893559" status="passed">
+          <name>am on page "/haartrockner"</name>
+        </step>
+        <step start="1605811893559" stop="1605811893775" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1605811893775" stop="1605811897779" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1605811897780" stop="1605811897836" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1605811897836" stop="1605811900838" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1605811900839" stop="1605811900934" status="passed">
+          <name>fill field {"id":"search"},"Haartrockner"</name>
+        </step>
+        <step start="1605811900934" stop="1605811902938" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605811902938" stop="1605811904480" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1605811904480" stop="1605811904659" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1605811904659" stop="1605811906578" status="passed">
+          <name>am on page "/product-cura-luxe-dryer"</name>
+        </step>
+        <step start="1605811906578" stop="1605811906979" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1605811906979" stop="1605811907371" status="passed">
+          <name>see "in den"</name>
+        </step>
+        <step start="1605811907371" stop="1605811908183" status="passed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+        <step start="1605811908183" stop="1605811908441" status="passed">
+          <name>wait for text "haben"</name>
+        </step>
+        <step start="1605811908442" stop="1605811913446" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811913446" stop="1605811915959" status="passed">
+          <name>am on page "/checkout/cart/"</name>
+        </step>
+        <step start="1605811915959" stop="1605811920961" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605811920961" stop="1605811921425" status="passed">
+          <name>see "warenkorb"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="T3MicroAustria"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

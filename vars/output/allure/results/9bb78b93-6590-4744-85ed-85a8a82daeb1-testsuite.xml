@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1605816553166" stop="1605816647298" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1605816553183" stop="1605816647266" status="broken">
+      <name>T3MicroAustria</name>
+      <failure>
+        <message></message>
+        <stack-trace>#0 /Users/whazle/Desktop/T3Tests/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/T3Tests/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/T3Tests/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/T3Tests/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/T3Tests/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1605816556524" stop="1605816559161" status="passed">
+          <name>am on url "https://www•t3micro•at/de/"</name>
+        </step>
+        <step start="1605816559162" stop="1605816561165" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605816561165" stop="1605816561903" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1605816561903" stop="1605816568905" status="passed">
+          <name>wait 7</name>
+        </step>
+        <step start="1605816568905" stop="1605816573908" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605816573908" stop="1605816576039" status="passed">
+          <name>am on page "customer/account/login"</name>
+        </step>
+        <step start="1605816576040" stop="1605816581044" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1605816581044" stop="1605816581423" status="passed">
+          <name>fill field {"id":"email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1605816581423" stop="1605816584427" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1605816584427" stop="1605816584602" status="passed">
+          <name>fill field {"id":"pass"},"@Testing123"</name>
+        </step>
+        <step start="1605816584602" stop="1605816586605" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605816586606" stop="1605816586767" status="passed">
+          <name>click {"id":"send2"}</name>
+        </step>
+        <step start="1605816586767" stop="1605816594772" status="passed">
+          <name>wait 8</name>
+        </step>
+        <step start="1605816594772" stop="1605816596652" status="passed">
+          <name>am on page "/haartrockner"</name>
+        </step>
+        <step start="1605816596654" stop="1605816597315" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1605816597315" stop="1605816601318" status="passed">
+          <name>wait 4</name>
+        </step>
+        <step start="1605816601319" stop="1605816601412" status="passed">
+          <name>click {"css":"•icon-search"}</name>
+        </step>
+        <step start="1605816601413" stop="1605816604414" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1605816604415" stop="1605816604658" status="passed">
+          <name>fill field {"id":"search"},"Haartrockner"</name>
+        </step>
+        <step start="1605816604658" stop="1605816606662" status="passed">
+          <name>wait 2</name>
+        </step>
+        <step start="1605816606663" stop="1605816608886" status="passed">
+          <name>press key {"id":"search"},""</name>
+        </step>
+        <step start="1605816608886" stop="1605816609417" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1605816609417" stop="1605816611619" status="passed">
+          <name>am on page "/product-cura-luxe-dryer"</name>
+        </step>
+        <step start="1605816611620" stop="1605816612729" status="passed">
+          <name>see "haartrockner"</name>
+        </step>
+        <step start="1605816612729" stop="1605816613335" status="passed">
+          <name>see "in den"</name>
+        </step>
+        <step start="1605816613335" stop="1605816645749" status="failed">
+          <name>click {"css":"#product-addtocart-button"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="6aa0b83ac55b4dc85269840367286ffec9d8e021-attachment.png" type="image/png"/>
+        <attachment title="html" source="d2507bd6de292e0dcdeffcb57efa4ef2258ea83a-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="T3MicroAustria"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

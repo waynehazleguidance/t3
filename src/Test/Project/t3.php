@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Guidance\Tests\Project\Test\Project;
 
-class DemoCest extends \Guidance\Tests\Project\Test\BaseAbstract
+class t3 extends \Guidance\Tests\Project\Test\BaseAbstract
 {
     // ########################################
 
